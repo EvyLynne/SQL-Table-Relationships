@@ -4,5 +4,5 @@ I recently wanted to pull the relationships between tables.  I couldn't find any
 Although the relationships aren't in the schema, it's possible to pull from the data. <br>
 I adapted the query for the foreign keys in the database published by Dataedo, https://dataedo.com/kb/query/sql-server/list-foreign-keys-sql-queries. <br>
 I used Adventureworks2022, https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms. <br>
-NOTE: this query assumes the existince of primary and foreign keys in the database.  
+NOTE: this query assumes the existince of primary and foreign keys in the database and depends on the data in the tables to establish join types. 
 
